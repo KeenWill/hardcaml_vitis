@@ -1,0 +1,4 @@
+(executable
+  (name hardcaml_vitis)
+  (libraries base hardcaml hardcaml_waveterm)
+  (preprocess (pps ppx_jane ppx_deriving_hardcaml)))
